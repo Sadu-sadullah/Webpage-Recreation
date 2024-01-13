@@ -1,0 +1,117 @@
+body {
+    height: 101vh;
+    background-image: url(images/bg.jpeg);
+    overflow: clip;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.main-div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #20273a;
+    height: 100%;
+    width: 20%;
+    margin: 0;
+}
+
+.sidebar img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+
+.sidebar h1 {
+    color: #c46b49;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin: 10px 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.button button {
+    background-color: #c46b49;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.address p {
+    text-align: center;
+    margin: 35px 30px;
+    line-height: 1.5;
+}
+
+.content-div {
+    height: 100%;
+    width: 40%;
+    background-color: rgba(196,107,73, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.welcome {
+    margin: 0 50px;
+}
+
+.welcome h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+.text-content {
+    margin: 0 50px;
+}
+
+.text-content p {
+    color: white;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.time p {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;;
+}
